@@ -9,7 +9,7 @@ target 'BIND' do
     platform :ios, '7.0'
     xcodeproj 'BIND.xcodeproj'
 	pod 'libextobjc'
-    pod 'NODE_'
+    pod 'NODE_', :git => 'https://github.com/brandingbrand/BIND.git'
 end
 
 target 'BIND-OSX' do
