@@ -8,7 +8,7 @@
 
 #import "BNDConcreteViewModel.h"
 #import "BNDBinding.h"
-#import <NODE_/NSObject+NODE.h>
+#import <BB_NODE_/NSObject+NODE.h>
 
 @interface BNDViewModel ()
 @property (nonatomic, strong) NSMutableArray *mutableChildren;

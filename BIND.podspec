@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name = "BIND"
+  s.name = "BB-BIND"
   s.version = "1.4.8"
   s.summary = "Data Binding and MVVM for iOS."
 
@@ -29,6 +29,6 @@ Data Binding and MVVM for iOS.
   s.platform = :ios, "7.0"
 
   s.dependency 'libextobjc'
-  s.dependency 'NODE_'
+  s.dependency 'BB-NODE_'
 
 end
